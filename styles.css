@@ -107,3 +107,31 @@ img {
     grid-row: 1 / 3;
     align-self: center;
 }
+
+.hi-para {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+.main-user-name {
+    margin-top: 0;
+    align-self: flex-start;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
